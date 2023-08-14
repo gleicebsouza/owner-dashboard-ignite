@@ -3,13 +3,9 @@ import { api } from '../../services/api'
 import { Container } from './styles'
 
 export function TransactionTable() {
-
-
-
   /**Conexão feita com a api */
   useEffect(() => {
-    api.get('transactions')
-      .then(response => console.log(response.data))
+    api.get('transactions').then(response => console.log(response.data))
   }, [])
 
   return (

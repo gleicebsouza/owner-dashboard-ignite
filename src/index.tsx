@@ -4,11 +4,10 @@ import ReactDOM from 'react-dom/client'
 import { App } from './App'
 import reportWebVitals from './reportWebVitals'
 
-
 /**Routas da API */
 createServer({
   routes() {
-    this.namespace = 'api';
+    this.namespace = 'api'
 
     this.get('/transactions', () => {
       return [
@@ -16,16 +15,14 @@ createServer({
           id: 1,
           title: 'Transaction 1',
           amount: 400,
-          type:'deposit',
+          type: 'deposit',
           category: 'Food',
-          createdAt:new Date(),
-          
+          createdAt: new Date()
         }
       ]
     })
   }
 })
-
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 
