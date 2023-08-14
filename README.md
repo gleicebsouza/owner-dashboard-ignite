@@ -12,6 +12,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [x] Context Hooks
 - [x] Concepts of states
 - [x] Modal and Forms (React-modal)
+- [x] MirajeJS
+- [x] Axios
 
 <br/>
 

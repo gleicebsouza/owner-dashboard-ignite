@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
   :root{
-    --backgound:--#f0f2f5;
+    --backgound:#f0f2f5;
     --red:#e52E4D;
     --blue:#5429CC;
     --green:#33CC95;
@@ -23,15 +23,16 @@ export const GlobalStyles = createGlobalStyle`
   
     html{
       @media(min-width:1080px){
-        font-size:93.75%;
+        font-size:93.75%; //15px
       }
       @media(min-width:720px){
-        font-size:87.5%;
+        font-size:87.5%;//14px
+      }
+      @media(min-width:400px){
+        font-size:75%; //12px
       }
 
     }
-    
-  
 
   body,input,textarea,button{
       font-family: 'Poppins', sans-serif;

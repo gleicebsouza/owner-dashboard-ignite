@@ -27,10 +27,11 @@ export const Content = styled.div`
     border-radius:0.25rem; //4px
     border:none;
     padding:0 2rem;// 0 32px
-    transition:filter 0.2s;
+    transition:filter 0.3s;
   
     &:hover{
       filter:brightness(0.9);
+      
     }
   }
 
