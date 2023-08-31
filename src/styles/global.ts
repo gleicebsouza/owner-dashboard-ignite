@@ -57,5 +57,44 @@ button{
   cursor:not-allowed;
 }
 
+//styles Modal 
+.react-modal-overlay{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+
+  background:rgba(0,0,0,0.5);
+  position:fixed;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}
+.react-modal-content{
+  
+  width:100%;
+  max-width:756px;
+  padding:3rem;
+  
+  background:var(--backgound);
+  border-radius:0.25rem; //4px
+
+  position:relative;
+}
+
+.react-modal-close{
+  position:absolute;
+  right:1.5rem;
+  top:1.5rem;
+  border:0;
+  background:transparent;
+  transition:filter 2s;
+
+  &:hover{
+    filter:brightness(0.8);
+  }
+
+}
 
 `

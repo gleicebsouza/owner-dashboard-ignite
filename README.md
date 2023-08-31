@@ -2,18 +2,24 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## 💻 Tecnologies
+
+- ReactJS
+- Typescript
+
+
 ## Concepts applied in this project
 
-- [x] Using create-react-app
-- [x] Using Styled-components, global styles
-- [x] Using Typescript for static typing apps
-- [x] Components
-- [x] Consuming API
-- [x] Context Hooks
-- [x] Concepts of states
-- [x] Modal and Forms (React-modal)
-- [x] MirajeJS
-- [x] Axios
+- ✅ Using create-react-app
+- ✅ Using Styled-components, global styles
+- ✅ Using Typescript for static typing apps
+- ✅ Components
+- ✅ Consuming API
+- ✅ Context Hooks
+- ✅ Concepts of states
+- ✅ Modal and Forms (React-modal)
+- ✅ MirajeJS
+- ✅ Axios
 
 <br/>
 

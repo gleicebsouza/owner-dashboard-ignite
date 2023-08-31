@@ -20,17 +20,17 @@ export const Container = styled.div`
       background: var(--shape);
       padding: 1rem 2rem;
       border: 0;
-      border-radius:0.25rem;
-      
-      &:first-child{
-        color:var(--text-title);
+      border-radius: 0.25rem;
+
+      &:first-child {
+        color: var(--text-title);
       }
 
-      &.deposit{
-        color:var(--green);
+      &.deposit {
+        color: var(--green);
       }
-      &.withdraw{
-        color:var(--red);
+      &.withdraw {
+        color: var(--red);
       }
     }
   }
