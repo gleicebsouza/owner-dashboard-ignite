@@ -1,11 +1,11 @@
-import React from 'react'
-import Modal from 'react-modal'
 import { useState } from 'react'
+import Modal from 'react-modal'
 import { NewTransactionModal } from './components/NewTransactionModal'
+import { TransactionsProvider } from './hooks/useTransactions'
 
-import { GlobalStyles } from './styles/global'
-import { Header } from './components/Header/Header'
 import { Dashboard } from './components/Dashboard'
+import { Header } from './components/Header/Header'
+import { GlobalStyles } from './styles/global'
 
 //Make sure to bind modal to your appElement(https://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement('#root')
@@ -25,14 +25,14 @@ export function App() {
   }
 
   return (
-    <>
+    <TransactionsProvider>
       <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
       <Dashboard />
       <NewTransactionModal
-        isOpen={isNewTransactionModalOpen }
+        isOpen={isNewTransactionModalOpen}
         onRequestClose={handleCloseNewTransactionModal}
-        />
+      />
       <GlobalStyles />
-    </>
+    </TransactionsProvider>
   )
 }

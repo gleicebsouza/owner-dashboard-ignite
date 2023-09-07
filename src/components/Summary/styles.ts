@@ -28,8 +28,7 @@ div{
     &.highlight-background{
       background:var(--green);
       color:#fff;
-
-    }
+  }
   }
 
 

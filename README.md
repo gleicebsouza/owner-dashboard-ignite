@@ -7,7 +7,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - ReactJS
 - Typescript
 
-
 ## Concepts applied in this project
 
 - ✅ Using create-react-app
@@ -15,10 +14,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - ✅ Using Typescript for static typing apps
 - ✅ Components
 - ✅ Consuming API
-- ✅ Context Hooks
+- ✅ Context and Hooks
 - ✅ Concepts of states
 - ✅ Modal and Forms (React-modal)
-- ✅ MirajeJS
+- ✅ MirageJS
 - ✅ Axios
 
 <br/>
